@@ -1,0 +1,125 @@
+<html>
+<head>
+	<title>heriipurnama lagi</title>
+	<link rel="stylesheet" tyope="text/css" href="style.css" />
+    <script type="text/javascript">
+        function validasi(){
+
+            var nama=document.forms["myform"]["nama"].value;
+        
+            if (nama==null || nama==""){
+                alert("ehh Nama dan Pesan tidak boleh kosong !");
+                return false;
+            };
+            
+            var pesan=document.forms["myform"]["pesan"].value;
+            
+            if (pesan==null || pesan==""){
+                alert("eh Pesan masih kosong ya....")
+                return false;
+            };
+        }
+        
+    </script>
+    <link rel="icon" href="images/me.png" class="img-circle">
+</head>
+<body>
+	<div id="header">
+		<h1 >.: SELAMAT DATANG DI-SERVER WEB KU :. </h1>
+		<marquee><p>Ini data yang ada dalam serverku-ya...... :</p></marquee>
+	</div>
+    <div class="find">
+        <img src="images/me.png" alt=""/>
+            <p>You can also find me on</p>
+                <a href="http://heriipurnama.xyz" target="_blank" tittle="nameheriipurnama">
+                    <h2>heriipurnama.xyz</h2></a>
+    <form action="simpan_bukutamu.php" method="post" name="form1" id="myform" onSubmit="return validasi()" target="_self">
+        <table width="411" border="0" >
+            <tr>
+                <td colspan="4" bgcolor="#666666">
+                    <div align="center" class="style2">SILAHKAN AJUKAN PERTANYAAN, PESAN, KRITIK DAN SARAN</div>
+                </td>
+            </tr>
+            <tr>
+                <td width="4" bgcolor="#999999">&nbsp;</td>
+                <td width="13" bgcolor="white">Nama</td>
+                <td width="253">
+                    <label>
+                        <input type="text" size="34" maxlength="90" placeholder="exemple: heriipurnama" id="nama" name="txtnama">
+                    </label>
+                </td>
+                <td width="3" bgcolor="#999999">&nbsp;</td>
+            </tr>
+            <tr>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td height="53" bgcolor="white">Pesan</td>
+                <td>
+                    <label>
+                        <textarea name="txtpesan" cols="50" rows="4" id="pesan" placeholder="masukkan pesan disini"></textarea>
+                    </label>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+            </tr>
+            <tr>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                    <label>
+                        <input name="button1" type="submit" id="button1" value="Kirim" onClick="cek()">
+                        <input name="button2" type="reset" id="button2" value="Batal">
+                    </label>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+            </tr>
+            <tr> 
+                <td colspan="4" bgcolor="#999999">&nbsp;</td></tr>
+        </table>
+    </form>
+    </div>
+    <div class="ul">
+        <ul>
+            <li>
+                <p><a href="DOT">Soal DOT</a></p>
+		  </li>
+		  <li>
+              <p><a href="haha">Tugas</a></p>
+            </li>
+		  <li>
+              <p><a href="data.rar">Data-data</a></p>
+		  </li>
+		  <li>
+              <p><a href="/~heripur10101/">Server-nya Herii Purnama </a></p>
+		  </li>
+		  <li>
+              <p><a href="responsi web.rar">Soal Responsi P.Web</a></p>
+		  </li>
+		  <li>
+              <p><a href="Modul Praktikum.doc">modul praktikum TCC</a></p>
+		  </li>
+		  <li>
+              <p><a href="Modul Sitem Operasi TI dan SI.rar">Modul Sitem Operasi TI dan SI</a></p>
+		  </li>
+		  <li>
+              <p><a href="SOTI03">P.SO TI03</a></p>
+		  </li>
+		  <li>
+              <p><a href="modul12">Algoritma C++</a></p>
+		  </li>
+		  <li>
+              <p><a href="somi">sistem operasi MI [ manajeman informatika ]</a></p>
+		  </li>
+		  <li>
+              <p><a href="weblanjut"> web lanjut </a></p>
+		  </li>
+	</ul>
+</div>	
+<br>
+<div id="footer">
+	<hr>
+		Copyright &copy; 2015 -heriipurnama
+</div>
+<div class="bottom-footer">
+    <img src="images/ya.png"/>
+</div>
+	</body>
+</html>
