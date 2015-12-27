@@ -1,0 +1,62 @@
+h1{
+	font-family:"Eras-light-ITC";
+	font-size:24px;
+	text-align:   center;
+	color:gold;
+	text-decoration: underline;	
+    margin-top: 2px;
+}
+p{
+	color: white;
+}
+a:link{
+    color:cornsilk;
+}
+a:vlink{
+    color: fuchsia;
+}
+.ul {
+        float: left;
+        font-style: oblique;
+}
+ul li{
+    color: aqua;
+}
+ul li p:hover{
+    opacity: 0.5;
+}
+body {
+	background:url("images/1.jpg") fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#footer{
+    font-size:0.95em;
+    font-style: italic;
+	color:aqua;
+	padding:10px 0;
+    text-align: right;
+}
+.find{
+    float: right;     
+}
+.find h2:hover{
+    opacity: 0.5;
+}
+.find p{
+    color:lavenderblush;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-bottom-color: aquamarine;
+}
+.bottom-footer img{
+    width: 769px;
+    height: 128px;
+    padding-top:70px;
+    padding-left: 310px;
+    padding-right: 10px;
+    padding-bottom:0px;
+}
